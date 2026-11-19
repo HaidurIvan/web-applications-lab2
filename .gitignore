@@ -1,0 +1,17 @@
+# Rails: локальні файли, які не потрапляють у репозиторій
+hello_app/.bundle
+hello_app/log/*
+!hello_app/log/.keep
+hello_app/tmp/*
+!hello_app/tmp/.keep
+!hello_app/tmp/pids/
+hello_app/tmp/pids/*
+!hello_app/tmp/pids/.keep
+!hello_app/tmp/storage/
+hello_app/tmp/storage/*
+!hello_app/tmp/storage/.keep
+hello_app/storage/*
+!hello_app/storage/.keep
+hello_app/config/master.key
+hello_app/public/assets
+
